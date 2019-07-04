@@ -1,0 +1,21 @@
+{
+    "name": "vagrant/lib-starter",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "imangazaliev/didom": "dev-master",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yue\\KeywordTracker\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "scripts":{
+        "test": "./vendor/bin/phpunit"
+    }
+}
